@@ -86,8 +86,8 @@ button:hover{
 
 .container-text{
     padding: 150px 0 0 130px;
-    width: 150%; 
-    height: auto;
+    transform: scale(1.2); /* Aumenta o container em 20% */
+    transform-origin: top left; /* Define o ponto de origem da escala */
 }
 
 .text h3{
